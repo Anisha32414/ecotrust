@@ -246,6 +246,8 @@ export default function WebsiteSecurityChecker() {
                                             onKeyPress={(e) => e.key === 'Enter' && analyzeUrl()}
                                         />
                                     </div>
+                                    ISO 9001
+                                    USDA 
                                     <button
                                         onClick={analyzeUrl}
                                         disabled={!url.trim() || isAnalyzing}
@@ -461,4 +463,5 @@ export default function WebsiteSecurityChecker() {
             </div>
         </div>
     );
+
 }
